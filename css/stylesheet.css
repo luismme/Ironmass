@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600,800');
+
+body{
+  font-family: 'Raleway' 'Sans Serif';
+  font-size: 14px;
+  color: #333;
+}
+
+header{
+  background-color: #252525;
+  padding: 20px 0px;
+}
+
+#sec-slides{
+  background-image: url(../img/slide-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 100px 0px;
+  height: 600px;
+}
+
+#sec-slides h2{
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+#sec-slides h1{
+  font-size: 80px;
+  font-weight: 900;
+}
+
+.barra{
+  background-color: #f54f15;
+  width: 100px;
+  height: 3px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-naranja{
+  padding: 15px 30px;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #f54f15;
+  color: #fff;
+  border-color: #f54f15;
+  border-radius: 0;
+  margin-top: 40px;
+}
+
+.btn-naranja:hover{
+  background-color: #252525;
+  color: #fff;
+}
+
+.barra-izquierda{
+  display: inline-block;
+}
+
+.espaciado{
+  padding: 100px 0;
+}
+
+.titulo{
+  font-size: 70px;
+  font-weight: 700;
+}
+
+#sec-amanda h3{
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+p{
+  color: #777
+}
+
+.firma-amanda{
+  color: #f54f15;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 700;
+}
+
+#sec-clases{
+  background: #f3f3f3;
+}
+
+#sec-clases .titulo{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#sec-clases h3{
+  color: #f54f15;
+}
+
+#sec-coaches{
+  background-image: url(../img/bg-coaches.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#sec-coaches .barra{
+  background-color: white;
+}
+
+#sec-coaches .titulo{
+  color: white;
+  text-align: center;
+}
+
+.cuadro-blanco{
+  background-color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.cuadro-blanco h3{
+  color: #333;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+
+.cuadro-blanco h4{
+  color: #f54f15;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+#sec-clases .padre,
+#sec-clases .info-clase{
+  position: relative;
+}
+
+#sec-clases .hijo{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background-color: rgba(245, 79, 21, 0.8);
+  padding: 15px 35px;
+}
+
+#sec-clases .hijo h3{
+  color: white;
+}
+
+#sec-clases .info-texto{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(245, 79, 21, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: all ease-in-out 0.5s;
+}
+
+#sec-clases .info-texto h3{
+  color: #fff;
+  font-weight: 600;
+}
+
+#sec-clases .info-clase:hover .info-texto{
+  opacity: 1;
+  transition: all ease-in-out 0.5s;
+}
+
+#sec-clases .overlay{
+  position: relative;
+}
+
+#sec-clases .bg-overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#sec-clases .titulo-overlay{
+  position: absolute;
+  width: 100%;
+  background-color: rgba(245, 79, 21, 0.8);
+  bottom: 0;
+  padding: 15px 35px;
+  z-index: 2;
+}
+
+#sec-clases .titulo-overlay h3{
+  color: #fff;
+  font-weight: 600;
+}
+
+footer{
+  background-color: #252525;
+  color: #777;
+  padding: 10% 0;
+  text-align: center;
+}
+
+footer h3{
+  color: #fff;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+footer h3 span{
+  color: #f54f15;
+}
+
+.redes{
+  margin: 45px 0;
+}
+
+.redes li{
+  display: inline-block;
+}
+
+.redes a{
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border: 2px solid #fff;
+  display: block;
+  border-radius: 100%;
+  color: #fff;
+  text-decoration: none;
+  transition: all ease 0.3s;
+}
+
+.redes a:hover{
+  background-color: #fff;
+  color: black;
+  transition: all ease 0.3s;
+}
+
+footer p a{
+  color: #f54f15;
+  font-weight: 400;
+}
+
+footer p a:hover{
+  color: #f54f15;
+}
+
+/*Contact*/
+#sec-breadcrumb{
+  background-color: #f3f3f3;
+}
+
+#sec-breadcrumb .breadcrumb{
+  background-color: transparent;
+  border-radius: 0;
+}
+
+#sec-content .titulo{
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+#sec-content h4{
+  font-weight: 700;
+  text-align: center;
+}
+
+.letra-naranja{
+  color: #f54f15;
+}
+
+#sec-content > h4{
+  margin-bottom: 40px;
+}
+
+#sec-content .font-weight-bold{
+  color: #000;
+}
+
+#map{
+  width: 100%;
+  min-height: 300px;
+}
